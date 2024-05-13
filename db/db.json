@@ -1,694 +1,522 @@
 {
   "users": [
     {
-      "id": "2342352",
-      "email": "test@mail.ru",
-      "password": "654321",
-      "name": "Arsen",
-      "avatar": "/avatar",
-      "isAdmin": true,
-      "pointTests": [
+      "id": "5bf64340-2e85-4cfd-93e7-8787a46dbe8c",
+      "roles": [
+        "teacher"
+      ],
+      "email": "test1234@mail.ru",
+      "password": "$2a$07$Hjxgf6MQIPUFVHeL8cDbwOcFGtsOhwKpobcE4/lUMcvCM62XIJ7py",
+      "name": "",
+      "regDate": "10-01-2024",
+      "isBanned": false,
+      "homework": [
+        "333"
+      ],
+      "gradeHomeworks": [
         {
-          "idUser": "1",
-          "idTest": "edeccac7-2c93-409f-82b1-2be1c8fe8777",
-          "points": 3
+          "id": "333",
+          "name": "5 задание ЕГЭ",
+          "grade": "8/10"
         }
       ],
-      "regDate": "19.05.2022",
+      "notificationNumbers": 0
+    },
+    {
+      "id": "2261a4b3-4f9f-4ce3-9311-a3f3f85b82b1",
+      "roles": [
+        "student"
+      ],
+      "email": "test123@mail.ru",
+      "password": "$2a$07$yQxgIPj64562/y3KzXe/UOpZ4S6TET5.GbfOgKSlVFoD5Ji9Cq2RG",
+      "name": "Петр",
+      "regDate": "10-04-2024",
+      "isBanned": false,
+      "notificationNumbers": 0
+    },
+    {
+      "id": "9d8ea40d-5321-4189-8a32-a8027c31ec83",
+      "roles": [
+        "teacher"
+      ],
+      "email": "test12@mail.ru",
+      "password": "$2a$07$c33jKd8DnZ35mYDqX3Nwl.HeWMo.rYpXnfs6RPzYIKLCJ4TgSn53K",
+      "name": "Арсен",
+      "regDate": "13-04-2024",
       "isBanned": false
     },
     {
-      "id": "23aaeryrte123dfgbf52",
-      "email": "VityaKS@inbox.ru",
-      "password": "1111111asdasdas",
-      "name": "Victor",
-      "avatar": "/avatar",
-      "isAdmin": true,
-      "pointTests": [],
-      "regDate": "19.01.2022",
-      "isBanned": false
+      "id": "2df2cabb-fd73-4216-bab0-9d0e1e6aba4a",
+      "roles": [
+        "student"
+      ],
+      "email": "arsenblade@mail.ru",
+      "password": "$2a$07$Xc7IplKCM9CLh.oyETdAwO7WpIvhE99cZQV05uFbx7OT8IIaDT/3m",
+      "name": "Арсен Хуранов",
+      "regDate": "22-04-2024",
+      "isBanned": false,
+      "notificationNumbers": 0
     },
     {
-      "id": "23ayjvdbrte123aa52",
-      "email": "vict0r2007@mail.ru",
-      "password": "654321aaaa",
-      "name": "Victor",
-      "avatar": "/avatar",
-      "isAdmin": false,
-      "pointTests": [],
-      "regDate": "19.01.2022",
-      "isBanned": false
-    },
-    {
-      "id": "asd123as2352",
-      "email": "test@mail.ru",
-      "password": "654321aaa",
-      "name": "Artem",
-      "avatar": "/avatar",
-      "isAdmin": false,
-      "pointTests": [],
-      "regDate": "19.02.2022",
-      "isBanned": false
-    },
-    {
-      "id": "1",
+      "id": "40ff0297-e20b-487f-8102-a43ed38fc904",
+      "roles": [
+        "student"
+      ],
       "email": "arsen@mail.ru",
-      "password": "123456",
-      "name": "Yen134",
-      "avatar": "/avatar",
-      "isAdmin": true,
-      "pointTests": [
-        {
-          "idUser": "1",
-          "idTest": "edeccac7-2c93-409f-82b1-2be1c8fe8777",
-          "points": 5
-        },
-        {
-          "idUser": "1",
-          "idTest": "aa9f8e87-8ab0-401b-a25f-17662a13441523134314c53665",
-          "points": 1
-        },
-        {
-          "idUser": "1",
-          "idTest": "edeccac7-2c93-409f-82b1-2be1c8fe8666",
-          "points": 4
-        }
-      ],
-      "regDate": "17.09.2022",
-      "isBanned": false
+      "password": "$2a$07$eIqGl644kumRJIKnefo9Ke0wEab6xxmlTyFRY0JFktdtxLh4hNoXq",
+      "name": "Хуранов Арсен",
+      "regDate": "22-04-2024",
+      "isBanned": false,
+      "notificationNumbers": 0
     }
   ],
-  "allTests": [
+  "grades-students": [
     {
-      "id": "aa9f8e87-8ab0-401b-a25f-17662a13441523134314c53665",
+      "idTeacher": "5bf64340-2e85-4cfd-93e7-8787a46dbe8c",
+      "idStudent": "2261a4b3-4f9f-4ce3-9311-a3f3f85b82b1",
+      "idHomework": "bc5206f4-a22c-4dd1-b3a0-daf7c7987daf",
+      "allQuestionLength": 5,
+      "points": 2,
+      "nameHomework": "Лексика и синонимы №2",
+      "valuePercent": 40,
+      "id": 1
+    },
+    {
+      "idTeacher": "5bf64340-2e85-4cfd-93e7-8787a46dbe8c",
+      "idStudent": "2261a4b3-4f9f-4ce3-9311-a3f3f85b82b1",
+      "idHomework": "c6f8cd8f-d16e-45e3-8833-89598d3ef8f1",
+      "allQuestionLength": 6,
+      "points": 3,
+      "nameHomework": "Лексика и синонимы",
+      "valuePercent": 50,
+      "id": 2
+    },
+    {
+      "idTeacher": "5bf64340-2e85-4cfd-93e7-8787a46dbe8c",
+      "idStudent": "40ff0297-e20b-487f-8102-a43ed38fc904",
+      "idHomework": "c6f8cd8f-d16e-45e3-8833-89598d3ef8f1",
+      "allQuestionLength": 6,
+      "points": 4,
+      "nameHomework": "Лексика и синонимы",
+      "valuePercent": 67,
+      "id": 3
+    },
+    {
+      "idTeacher": "5bf64340-2e85-4cfd-93e7-8787a46dbe8c",
+      "idStudent": "40ff0297-e20b-487f-8102-a43ed38fc904",
+      "idHomework": "bc5206f4-a22c-4dd1-b3a0-daf7c7987daf",
+      "allQuestionLength": 5,
+      "points": 5,
+      "nameHomework": "Лексика и синонимы №2",
+      "valuePercent": 100,
+      "id": 4
+    },
+    {
+      "idTeacher": "5bf64340-2e85-4cfd-93e7-8787a46dbe8c",
+      "idStudent": "2df2cabb-fd73-4216-bab0-9d0e1e6aba4a",
+      "idHomework": "bc5206f4-a22c-4dd1-b3a0-daf7c7987daf",
+      "allQuestionLength": 5,
+      "points": 1,
+      "nameHomework": "Лексика и синонимы №2",
+      "valuePercent": 20,
+      "id": 5
+    },
+    {
+      "idTeacher": "5bf64340-2e85-4cfd-93e7-8787a46dbe8c",
+      "idStudent": "2df2cabb-fd73-4216-bab0-9d0e1e6aba4a",
+      "idHomework": "c6f8cd8f-d16e-45e3-8833-89598d3ef8f1",
+      "allQuestionLength": 6,
+      "points": 5,
+      "nameHomework": "Лексика и синонимы",
+      "valuePercent": 84,
+      "id": 6
+    },
+    {
+      "idTeacher": "5bf64340-2e85-4cfd-93e7-8787a46dbe8c",
+      "idStudent": "2261a4b3-4f9f-4ce3-9311-a3f3f85b82b1",
+      "idHomework": "bc5206f4-a22c-4dd1-b3a0-daf7c7987daf",
+      "allQuestionLength": 5,
+      "points": 1,
+      "nameHomework": "Лексика и синонимы №2",
+      "valuePercent": 20,
+      "id": 7
+    }
+  ],
+  "sign-up": [
+    {
+      "idTeacher": "5bf64340-2e85-4cfd-93e7-8787a46dbe8c",
+      "nameTeacher": "",
+      "idStudent": "2df2cabb-fd73-4216-bab0-9d0e1e6aba4a",
+      "nameStudent": "Татьяна Федотова",
+      "setHomeworks": [],
+      "id": 2
+    },
+    {
+      "idTeacher": "5bf64340-2e85-4cfd-93e7-8787a46dbe8c",
+      "nameTeacher": "",
+      "idStudent": "40ff0297-e20b-487f-8102-a43ed38fc904",
+      "nameStudent": "Хуранов Арсен",
+      "setHomeworks": [],
+      "id": 4
+    },
+    {
+      "idTeacher": "5bf64340-2e85-4cfd-93e7-8787a46dbe8c",
+      "nameTeacher": "",
+      "idStudent": "2261a4b3-4f9f-4ce3-9311-a3f3f85b82b1",
+      "nameStudent": "Петр",
+      "setHomeworks": [],
+      "id": 5
+    }
+  ],
+  "notifications": [],
+  "teachers-info": [
+    {
+      "id": "5bf64340-2e85-4cfd-93e7-8787a46dbe8c",
+      "photo": "https://sun9-65.userapi.com/impg/k-Qt_pyAn--8rwMfugVpumJnbu4QXK4GwyfK3g/nfZ4NOyAwYw.jpg?size=1709x2160&quality=95&sign=1688b197a682d531ac91141bd8b31a34&type=album",
+      "experience": "4 года подготовки учеников, более 10 стобальников",
+      "education": "Уральский государственный педагогический университет",
+      "name": "Тимофеева Анастасия",
+      "description": "Привет, дорогие ученики! За последние 5 лет я страстно занимаюсь преподаванием русского языка. Мое вдохновение - видеть, как вы раскрываете",
+      "price": "1600"
+    },
+    {
+      "id": "5bf64340-2e85-4cfd-93e7-8787a46dbe1c",
+      "photo": "https://interesnoewmire.ru/wp-content/uploads/krasivye-devushki-na-chetverg-chast-3-46-foto-cefbb3f.jpg",
+      "experience": "7 лет подготовки учеников, более 17 стобальников",
+      "education": "Уральский государственный педагогический университет",
+      "name": "Прохорова Татьяна",
+      "description": "Привет, дорогие ученики! За последние 7 лет я страстно занимаюсь преподаванием русского языка. Мое вдохновение - видеть, как вы раскрываете",
+      "price": "900"
+    }
+  ],
+  "homeworks": [
+    {
+      "id": "c6f8cd8f-d16e-45e3-8833-89598d3ef8f1",
+      "name": "Лексика и синонимы",
+      "idTeacher": "5bf64340-2e85-4cfd-93e7-8787a46dbe8c",
       "questions": [
         {
-          "idQuestion": "8511a187-35cf-4fd6-87bf-899e1ctht4h4th446ec0",
-          "textQuestion": "Какой настрой на обучение ?",
-          "typeAnswers": "radio",
-          "answerOptions": [
+          "id": "75ce5b10-afcb-4bc8-95b1-6fbb912aa424",
+          "text": "Выберите синоним слова \"большой\"",
+          "type": "radio",
+          "answers": [
             {
-              "idAnswer": "6292a19e-9d95-494d-ae55-c11110d726",
-              "idQuestion": "8511a187-35cf-4fd6-87bf-899e1ctht4h4th446ec0",
-              "textAnswer": "Готов поглощать материал"
+              "id": "ee127a50-5930-4893-9fbf-ff23c0f59ea7",
+              "text": "маленький"
+            },
+            {
+              "id": "ab546c22-c4de-41b5-b406-da5d54a9dad1",
+              "text": "огромный"
+            },
+            {
+              "id": "e02d5093-52de-4f59-9d7a-28c1e27cf47f",
+              "text": "красивый"
+            }
+          ]
+        },
+        {
+          "id": "db10d8c1-a510-4e6c-ace2-c99057003b6f",
+          "text": "Какое слово является синонимом к \"смелый\"?",
+          "type": "radio",
+          "answers": [
+            {
+              "id": "f6eec266-6c1e-45df-82ee-82c1be8d5c61",
+              "text": "робкий"
+            },
+            {
+              "id": "65a3b59e-284a-4a3b-a00e-4436ea9db198",
+              "text": "трусливый"
+            },
+            {
+              "id": "e6e0e009-7cb2-411d-8bb0-e999cd421f8d",
+              "text": "отважный"
+            }
+          ]
+        },
+        {
+          "id": "aea51acb-6f07-46e5-9ed0-da93d28fe944",
+          "text": "Какое слово синонимично \"радость\"?",
+          "type": "radio",
+          "answers": [
+            {
+              "id": "6802492c-acfa-4848-be32-95661bb34fdd",
+              "text": "грусть"
+            },
+            {
+              "id": "c50beea1-0213-46be-99a8-17083a5489a3",
+              "text": "счастье"
+            },
+            {
+              "id": "21fbf1b3-8d5d-4480-a4fa-825b5cfc416c",
+              "text": "уныние"
+            }
+          ]
+        },
+        {
+          "id": "c1597b7a-b6b6-47d3-86cb-dfffc958feb3",
+          "text": "Выберите синоним слова \"быстро\"",
+          "type": "radio",
+          "answers": [
+            {
+              "id": "3a004d59-0e6a-4e3d-a856-258c4589a7f2",
+              "text": "медленно"
+            },
+            {
+              "id": "36c235e8-f2c9-49d2-b265-bda650613fac",
+              "text": "быстрее"
+            },
+            {
+              "id": "6101472f-41ca-4355-a920-fa67511e38c1",
+              "text": "скоро"
+            }
+          ]
+        },
+        {
+          "id": "be48dc5e-ef37-4c58-bed7-c1c83f353bc9",
+          "text": "Какое слово является синонимом \"умный\"?",
+          "type": "radio",
+          "answers": [
+            {
+              "id": "47d8bfd5-20d2-4fde-9736-d0e93897b7ca",
+              "text": "глупый"
+            },
+            {
+              "id": "1a636449-bd20-48d7-b520-c33bc3df3550",
+              "text": "умелый"
+            },
+            {
+              "id": "e805f74e-2fb4-4f4d-833e-5aee75afaaf2",
+              "text": "красивый"
+            }
+          ]
+        },
+        {
+          "id": "e717340c-242b-4e3a-8ba0-5649637f929d",
+          "text": "Какое слово синонимично \"любопытный\"?",
+          "type": "radio",
+          "answers": [
+            {
+              "id": "cf8db117-d809-4d0d-bd12-81754a098abf",
+              "text": "скучный"
+            },
+            {
+              "id": "d2dfeb45-693e-4feb-8da2-d3dbcf64919f",
+              "text": "радостный"
+            },
+            {
+              "id": "5051b4bf-5f6e-4300-9a6b-7a197b898cf6",
+              "text": "любознательный"
             }
           ]
         }
       ]
     },
     {
-      "id": "edeccac7-2c93-409f-82b1-2be1c8fe8777",
+      "id": "bc5206f4-a22c-4dd1-b3a0-daf7c7987daf",
+      "name": "Лексика и синонимы №2",
+      "idTeacher": "5bf64340-2e85-4cfd-93e7-8787a46dbe8c",
       "questions": [
         {
-          "idQuestion": "8c906ba9-5aad-4737-9a0e-d978f980fa1d",
-          "textQuestion": "Что такое HTML ?",
-          "typeAnswers": "radio",
-          "answerOptions": [
+          "id": "aa516f7d-abef-4c39-b4b3-81336746b250",
+          "text": "Какое слово синонимично \"благодарный\"?",
+          "type": "radio",
+          "answers": [
             {
-              "idAnswer": "98a8db77-58fd-488f-a445-708c9b9d7e62",
-              "idQuestion": "8c906ba9-5aad-4737-9a0e-d978f980fa1d",
-              "textAnswer": "HTML - это файл для отображения верстки"
+              "id": "d06f866e-44c1-4eed-bac6-01170259289d",
+              "text": "испытывающий глубокую благодарность и признательность"
             },
             {
-              "idAnswer": "408c56cd-280d-4b4c-ad51-226e6aef063f",
-              "idQuestion": "8c906ba9-5aad-4737-9a0e-d978f980fa1d",
-              "textAnswer": "HTML - это стандартный язык форматирования текста, который создает и отображает различные страницы в Интернете"
+              "id": "66e5090b-9f10-41cf-8c03-3d6d2b98dadc",
+              "text": "признавший труд и помощь других"
             },
             {
-              "idAnswer": "3a34de4a-0313-416a-b07d-e1d7c6ff45df",
-              "idQuestion": "8c906ba9-5aad-4737-9a0e-d978f980fa1d",
-              "textAnswer": "HTML - это язык для взаимодействия бекенда с фронтендом"
+              "id": "112a45ff-fd92-440d-87a2-1bf38511abfd",
+              "text": "осознающий добрые дела и отзывчивость окружающих"
             }
           ]
         },
         {
-          "idQuestion": "e9747877-0183-454b-a209-4e96adec4b20",
-          "textQuestion": "Как подключить стили к HTML документу ?",
-          "typeAnswers": "radio",
-          "answerOptions": [
+          "id": "11e50ed6-629b-44d8-86da-dec601c7c19d",
+          "text": "Какое слово является синонимом \"гордый\"?",
+          "type": "radio",
+          "answers": [
             {
-              "idAnswer": "7c73c73c-c643-411b-8295-756d858c9c9f",
-              "idQuestion": "e9747877-0183-454b-a209-4e96adec4b20",
-              "textAnswer": "C помощью тега link. Где в атрибуте href мы указываем ссылку до файла, а в атрибуте rel указываем stylesheet"
+              "id": "1769c922-bab9-4429-9e44-92a6f9b43f75",
+              "text": "чувствующий себя превосходно и достойно"
             },
             {
-              "idAnswer": "d9b59967-ecce-4790-95fe-8eec2c25e7e2",
-              "idQuestion": "e9747877-0183-454b-a209-4e96adec4b20",
-              "textAnswer": "C помощью тега head. Где в атрибуте href мы указываем ссылку до файла, а в атрибуте rel указываем stylesheet"
+              "id": "3641a3e7-d1f8-441c-9cee-1047982ab353",
+              "text": "полный уверенности в себе и своих силах"
             },
             {
-              "idAnswer": "d0d4e815-b844-4401-a84e-7ccf09ddf958",
-              "idQuestion": "e9747877-0183-454b-a209-4e96adec4b20",
-              "textAnswer": "C помощью тега meta. Где в атрибуте src указать относительный путь до файла"
-            },
-            {
-              "idAnswer": "7b8afe4e-ec8b-40cc-a153-550d65f6894b",
-              "idQuestion": "e9747877-0183-454b-a209-4e96adec4b20",
-              "textAnswer": "C помощью тега meta. Где в атрибуте href мы указываем ссылку до файла"
+              "id": "4196d4cf-bb8a-4c0b-aeda-fcc761248143",
+              "text": "испытывающий гордость и самоуважение"
             }
           ]
         },
         {
-          "idQuestion": "63b6c506-bed0-47ed-bf58-e5308e2d6bcc",
-          "textQuestion": "Как подключаются скрипты к HTML документы ?",
-          "typeAnswers": "radio",
-          "answerOptions": [
+          "id": "77c7a966-59c9-4c6e-89c9-74bfba529dff",
+          "text": "Какое слово синонимично \"обширный\"?",
+          "type": "radio",
+          "answers": [
             {
-              "idAnswer": "45a84f24-0ea0-4d6d-9d23-73dfd07b625d",
-              "idQuestion": "63b6c506-bed0-47ed-bf58-e5308e2d6bcc",
-              "textAnswer": "Перед открывающимся тегом body. С помощью тега script, в атрибуте src указываем относительный путь до файла"
+              "id": "945bd37d-6583-4c80-816a-4a76673b6ad7",
+              "text": "имеющий большую площадь и пространство"
             },
             {
-              "idAnswer": "27a505ce-c171-43f5-b4e1-3ae08ba1a6df",
-              "idQuestion": "63b6c506-bed0-47ed-bf58-e5308e2d6bcc",
-              "textAnswer": "Перед закрывающимся тегом body. С помощью тега script, в атрибуте src указываем относительный путь до файла"
+              "id": "18c6bf87-368a-45a7-be64-2acbc2b29451",
+              "text": "распространенный и широко известный"
             },
             {
-              "idAnswer": "27a505ce-c171-43f5-b4e1-3ae08ba1a6df123",
-              "idQuestion": "63b6c506-bed0-47ed-bf58-e5308e2d6bcc",
-              "textAnswer": "Перед закрывающимся тегом body. С помощью тега script, в атрибуте href указываем относительный путь до файла"
-            },
-            {
-              "idAnswer": "27a505ce-c171-43f5-b4e1-3ae08ba1a6d4524f",
-              "idQuestion": "63b6c506-bed0-47ed-bf58-e5308e2d6bcc",
-              "textAnswer": "С помощью тега javascript, в атрибуте src указываем относительный путь до файла"
+              "id": "fbdb16df-5999-4641-8344-61b4ad7dbec4",
+              "text": "пространственный и объемный"
             }
           ]
         },
         {
-          "idQuestion": "d8fa1943-c0f2-413d-b037-b0a6fc1141411ec1",
-          "textQuestion": "Можем ли мы задать ширину и высоту тегу span ?",
-          "typeAnswers": "text"
-        },
-        {
-          "idQuestion": "d8fa1943-c0f2-413d-b037-b0afgegeg6fc411ec1",
-          "textQuestion": "Как отрыть ссылку в новом окне ?",
-          "typeAnswers": "radio",
-          "answerOptions": [
+          "id": "883d9ecf-7e9f-4538-9cc7-b0ca00b8d1b0",
+          "text": "Выберите синоним слова \"замечательный\":",
+          "type": "radio",
+          "answers": [
             {
-              "idAnswer": "d9b59967-ecce-4790-95fe-8eecergeg2c25e7e2",
-              "idQuestion": "d8fa1943-c0f2-413d-b037-b0afgegeg6fc411ec1",
-              "textAnswer": "Необходимо добавить ссылке атрибут blank со значением \"target\""
+              "id": "d2f2d074-1f98-448e-a5af-e632553640b5",
+              "text": "поразительный своим великолепием и красотой"
             },
             {
-              "idAnswer": "d0d4e815-b844-4401-a84e-7ccf0greg9ddf958",
-              "idQuestion": "d8fa1943-c0f2-413d-b037-b0afgegeg6fc411ec1",
-              "textAnswer": "Необходимо добавить ссылке атрибут target со значением \"_blank\""
+              "id": "7a1eeb77-1c1b-4870-ac83-c22993adb910",
+              "text": "восхитительный и вызывающий восторг"
             },
             {
-              "idAnswer": "7b8afe4e-ec8b-40cc-a153-550d6rgegr5f6894b",
-              "idQuestion": "d8fa1943-c0f2-413d-b037-b0afgegeg6fc411ec1",
-              "textAnswer": "Необходимо добавить ссылке атрибут blank со значением \"_target\""
+              "id": "fcb91125-2106-40ab-b4c0-d65034f5b77e",
+              "text": "потрясающий своей уникальностью и превосходством"
             }
           ]
         },
         {
-          "idQuestion": "d8fa1943-c0f2-413d-b037-b0a6fcgbrhhk,411ec1",
-          "textQuestion": "Как мы можем создавать ссылки на разные разделы на одной веб странице ?",
-          "typeAnswers": "checkbox",
-          "answerOptions": [
+          "id": "ab3ad725-c98a-4a03-8d02-99084109bd0d",
+          "text": "Какое слово является синонимом \"известный\"?",
+          "type": "radio",
+          "answers": [
             {
-              "idAnswer": "d9b59967-ecce-4790-95fe-8eec2c2yk5e7e2",
-              "idQuestion": "d8fa1943-c0f2-413d-b037-b0a6fcgbrhhk,411ec1",
-              "textAnswer": "У блока к которому мы будем перемещаться указать id"
+              "id": "95bc073e-56ed-46b9-bb22-f2fda05bebd3",
+              "text": "признанный и популярный в широких кругах"
             },
             {
-              "idAnswer": "d0d4e815-b844-4401-a84e-7ccfyku09ddf958",
-              "idQuestion": "d8fa1943-c0f2-413d-b037-b0a6fcgbrhhk,411ec1",
-              "textAnswer": "У блока к которому мы будем перемещаться указать атрибут href"
+              "id": "9b79c3f1-7211-4826-8e07-be59f0bea968",
+              "text": "общеизвестный и широко распространенный"
             },
             {
-              "idAnswer": "7b8afe4e-ec8b-40cc-a153-550dr6765f6894b",
-              "idQuestion": "d8fa1943-c0f2-413d-b037-b0a6fcgbrhhk,411ec1",
-              "textAnswer": "У ссылки указать атрибут href со значением id блока к которому перемещаемся"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "edeccac7-2c93-409f-82b1-2be1c8fe8666",
-      "questions": [
-        {
-          "idQuestion": "8c906ba9-5aad-4737-9a0e-d978f980fa1d666",
-          "textQuestion": "Что такое CSS ?",
-          "typeAnswers": "radio",
-          "answerOptions": [
-            {
-              "idAnswer": "98a8db77-58fd-488f-a445-708c9b9d7e6255",
-              "idQuestion": "8c906ba9-5aad-4737-9a0e-d978f980fa1d666",
-              "textAnswer": "CSS - каскадные таблицы стилей"
-            },
-            {
-              "idAnswer": "408c56cd-280d-4b4c-ad51-226e6aef063f55",
-              "idQuestion": "8c906ba9-5aad-4737-9a0e-d978f980fa1d666",
-              "textAnswer": "CSS - это код, который позволяет писать логику сайта"
-            },
-            {
-              "idAnswer": "3a34de4a-0313-416a-b07d-e1d7c6ff45df55",
-              "idQuestion": "8c906ba9-5aad-4737-9a0e-d978f980fa1d666",
-              "textAnswer": "CSS - это картинки на сайте"
-            }
-          ]
-        },
-        {
-          "idQuestion": "e9747877-0183-454b-a209-4e96adec4b20666",
-          "textQuestion": "Чем отличается margin от padding ?",
-          "typeAnswers": "radio",
-          "answerOptions": [
-            {
-              "idAnswer": "7c73c73c-c643-411b-8295-756d858c9c9f555",
-              "idQuestion": "e9747877-0183-454b-a209-4e96adec4b20666",
-              "textAnswer": "Margin - внутренние отступы, а padding внешние"
-            },
-            {
-              "idAnswer": "d9b59967-ecce-4790-95fe-8eec2c25e7e2555",
-              "idQuestion": "e9747877-0183-454b-a209-4e96adec4b20666",
-              "textAnswer": "Margin - внешние отступы, а padding внутренние"
-            },
-            {
-              "idAnswer": "d0d4e815-b844-4401-a84e-7ccf09ddf958555",
-              "idQuestion": "e9747877-0183-454b-a209-4e96adec4b20666",
-              "textAnswer": "Ничем, два одинаковых стиля"
-            }
-          ]
-        },
-        {
-          "idQuestion": "63b6c506-bed0-47ed-bf58-e5308e2d6bcc666",
-          "textQuestion": "Как разместить блок по центру одновременно по горизонтали и вертикали ?",
-          "typeAnswers": "radio",
-          "answerOptions": [
-            {
-              "idAnswer": "45a84f24-0ea0-4d6d-9d23-73dfd07b625d555",
-              "idQuestion": "63b6c506-bed0-47ed-bf58-e5308e2d6bcc666",
-              "textAnswer": "Повесить на родителя padding: 0 auto"
-            },
-            {
-              "idAnswer": "27a505ce-c171-43f5-b4e1-3ae08ba1a6d555f",
-              "idQuestion": "63b6c506-bed0-47ed-bf58-e5308e2d6bcc666",
-              "textAnswer": "Повесить на блок стиль margin: 0 auto"
-            },
-            {
-              "idAnswer": "27a505ce-c171-43f5-b4e1-3ae08ba1a6df555",
-              "idQuestion": "63b6c506-bed0-47ed-bf58-e5308e2d6bcc666",
-              "textAnswer": "Повесить на родителя стили: display: flex, justify-content: center, align-items: center"
-            }
-          ]
-        },
-        {
-          "idQuestion": "d8fa1943-c0f2-413d-b037-b0afgegeg6fc411ec1666",
-          "textQuestion": "Из каких параметров складывается размер элемента в CSS ?",
-          "typeAnswers": "checkbox",
-          "answerOptions": [
-            {
-              "idAnswer": "d9b59967-ecce-4790-95fe-8eecergeg2c25e7e2555",
-              "idQuestion": "d8fa1943-c0f2-413d-b037-b0afgegeg6fc411ec1666",
-              "textAnswer": "margin"
-            },
-            {
-              "idAnswer": "d0d4e815-b844-4401-a84e-7ccf0greg9ddf958555",
-              "idQuestion": "d8fa1943-c0f2-413d-b037-b0afgegeg6fc411ec1666",
-              "textAnswer": "padding"
-            },
-            {
-              "idAnswer": "7b8afe4e-ec8b-40cc-a153-550d6rgegr5f6894b555",
-              "idQuestion": "d8fa1943-c0f2-413d-b037-b0afgegeg6fc411ec1666",
-              "textAnswer": "content"
-            },
-            {
-              "idAnswer": "7b8afe4e-ec8b-40cc-a153-550d6rgegr5f682r224t94b555",
-              "idQuestion": "d8fa1943-c0f2-413d-b037-b0afgegeg6fc411ec1666",
-              "textAnswer": "outline"
-            }
-          ]
-        },
-        {
-          "idQuestion": "d8fa1943-c0f2-413d-b037-b0a6fcgbrhhk,411ec1666",
-          "textQuestion": "Как избавиться от встроенных по умолчанию браузерных стилей ?",
-          "typeAnswers": "checkbox",
-          "answerOptions": [
-            {
-              "idAnswer": "d9b59967-ecce-4790-95fe-8eec2c2yk5e7e2555",
-              "idQuestion": "d8fa1943-c0f2-413d-b037-b0a6fcgbrhhk,411ec1666",
-              "textAnswer": "Использовать различные библеотеки который помогают это делать"
-            },
-            {
-              "idAnswer": "d0d4e815-b844-4401-a84e-7ccfyku09ddf958555",
-              "idQuestion": "d8fa1943-c0f2-413d-b037-b0a6fcgbrhhk,411ec1666",
-              "textAnswer": "Прописать обнуление стилей в глобальном css файле"
-            },
-            {
-              "idAnswer": "7b8afe4e-ec8b-40cc-a153-550dr6765f6894b555",
-              "idQuestion": "d8fa1943-c0f2-413d-b037-b0a6fcgbrhhk,411ec1666",
-              "textAnswer": "Обнулить используя свойство cssBrowser: none"
+              "id": "0f61bbcd-db55-4cd9-b582-7a4fd4e1a87f",
+              "text": "пользующийся славой и признанием"
             }
           ]
         }
       ]
     }
   ],
-  "answersToTests": [
+  "correct-answers": [
     {
-      "id": "aa9f8e87-8ab0-401b-a25f-17662a13441523134314c53665",
-      "answersToQuestions": [
+      "idHomework": "c6f8cd8f-d16e-45e3-8833-89598d3ef8f1",
+      "answers": [
         {
-          "idQuestion": "8511a187-35cf-4fd6-87bf-899e1ctht4h4th446ec0",
-          "idCorrectAnswers": [
-            "6292a19e-9d95-494d-ae55-c11110d726"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "edeccac7-2c93-409f-82b1-2be1c8fe8777",
-      "answersToQuestions": [
-        {
-          "idQuestion": "8c906ba9-5aad-4737-9a0e-d978f980fa1d",
-          "idCorrectAnswers": [
-            "408c56cd-280d-4b4c-ad51-226e6aef063f"
-          ]
-        },
-        {
-          "idQuestion": "e9747877-0183-454b-a209-4e96adec4b20",
-          "idCorrectAnswers": [
-            "7c73c73c-c643-411b-8295-756d858c9c9f"
-          ]
-        },
-        {
-          "idQuestion": "63b6c506-bed0-47ed-bf58-e5308e2d6bcc",
-          "idCorrectAnswers": [
-            "27a505ce-c171-43f5-b4e1-3ae08ba1a6df"
-          ]
-        },
-        {
-          "idQuestion": "d8fa1943-c0f2-413d-b037-b0a6fc1141411ec1",
-          "idCorrectAnswers": [
-            "Нет",
-            "нет",
-            "не можем",
-            "Не можем",
-            "Нет, не можем",
-            "нет, не можем"
+          "id": "07c60be9-aa4f-4f21-b8cf-4196f02a1ec3",
+          "correctAnswerIds": [
+            "ab546c22-c4de-41b5-b406-da5d54a9dad1"
           ],
-          "typeAnswer": "text"
+          "idHomework": "c6f8cd8f-d16e-45e3-8833-89598d3ef8f1",
+          "idQuestion": "75ce5b10-afcb-4bc8-95b1-6fbb912aa424"
         },
         {
-          "idQuestion": "d8fa1943-c0f2-413d-b037-b0afgegeg6fc411ec1",
-          "idCorrectAnswers": [
-            "d0d4e815-b844-4401-a84e-7ccf0greg9ddf958"
-          ]
-        },
-        {
-          "idQuestion": "d8fa1943-c0f2-413d-b037-b0a6fcgbrhhk,411ec1",
-          "idCorrectAnswers": [
-            "d9b59967-ecce-4790-95fe-8eec2c2yk5e7e2",
-            "7b8afe4e-ec8b-40cc-a153-550dr6765f6894b"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "edeccac7-2c93-409f-82b1-2be1c8fe8666",
-      "answersToQuestions": [
-        {
-          "idQuestion": "8c906ba9-5aad-4737-9a0e-d978f980fa1d666",
-          "idCorrectAnswers": [
-            "98a8db77-58fd-488f-a445-708c9b9d7e6255"
-          ]
-        },
-        {
-          "idQuestion": "e9747877-0183-454b-a209-4e96adec4b20666",
-          "idCorrectAnswers": [
-            "d9b59967-ecce-4790-95fe-8eec2c25e7e2555"
-          ]
-        },
-        {
-          "idQuestion": "63b6c506-bed0-47ed-bf58-e5308e2d6bcc666",
-          "idCorrectAnswers": [
-            "27a505ce-c171-43f5-b4e1-3ae08ba1a6df555"
-          ]
-        },
-        {
-          "idQuestion": "d8fa1943-c0f2-413d-b037-b0afgegeg6fc411ec1666",
-          "idCorrectAnswers": [
-            "d9b59967-ecce-4790-95fe-8eecergeg2c25e7e2555",
-            "d0d4e815-b844-4401-a84e-7ccf0greg9ddf958555",
-            "7b8afe4e-ec8b-40cc-a153-550d6rgegr5f6894b555"
-          ]
-        },
-        {
-          "idQuestion": "d8fa1943-c0f2-413d-b037-b0a6fcgbrhhk,411ec1666",
-          "idCorrectAnswers": [
-            "d9b59967-ecce-4790-95fe-8eec2c2yk5e7e2555",
-            "d0d4e815-b844-4401-a84e-7ccfyku09ddf958555"
-          ]
-        }
-      ]
-    }
-  ],
-  "topicsOfStudy": [
-    {
-      "id": "4fde4514-0ac7-4ad6-8291-4f3c3c143edf9b1",
-      "descriptionTopic": "Расскажем о материале курса",
-      "passedTopic": false,
-      "titleTopic": "Вводный урок",
-      "numberTopic": 1,
-      "relatedQuestionsId": "aa9f8e87-8ab0-401b-a25f-17662a13441523134314c53665",
-      "pictureTopicUrl": "react-poster.png",
-      "videoUrl": "https://youtu.be/rwAqYXXGQjw",
-      "commentsId": "topic1-comments"
-    },
-    {
-      "id": "4fde4514-0ac7-4ad6-8291-4f3c3cedf9b1",
-      "descriptionTopic": "Разберем основные вопросы по HTML",
-      "passedTopic": false,
-      "titleTopic": "Вопросы по HTML",
-      "numberTopic": 2,
-      "relatedQuestionsId": "edeccac7-2c93-409f-82b1-2be1c8fe8777",
-      "pictureTopicUrl": "react-poster.png",
-      "videoUrl": "https://www.youtube.com/watch?v=xF8iXgtb2Rc",
-      "commentsId": "topic2-comments"
-    },
-    {
-      "id": "48fbf953-edf0-4588-ac37-17f3b062919b",
-      "descriptionTopic": "Разберем основные вопросы по CSS",
-      "passedTopic": false,
-      "titleTopic": "Вопросы по CSS",
-      "numberTopic": 3,
-      "relatedQuestionsId": "edeccac7-2c93-409f-82b1-2be1c8fe8666",
-      "pictureTopicUrl": "react-poster.png",
-      "videoUrl": "https://www.youtube.com/watch?v=HkhcSuT_kSk",
-      "commentsId": "topic3-comments"
-    }
-  ],
-  "allComments": [
-    {
-      "id": "topic1-comments",
-      "comments": [
-        {
-          "id": "eea4fd57-34b6-49ec-99ed-85cae752184a",
-          "userId": "1",
-          "pubDate": "2023-05-20T19:01:31.723Z",
-          "username": "Yen134",
-          "commentText": "Урок классный, информация полезная!",
-          "replies": [
-            {
-              "id": "b500a79e-e14d-4a41-876d-d0fe096c1079",
-              "userId": "1",
-              "pubDate": "2023-05-20T21:00:05.336Z",
-              "username": "Yen134",
-              "commentText": "А я не согласен)))",
-              "replies": [],
-              "parentId": "eea4fd57-34b6-49ec-99ed-85cae752184a"
-            },
-            {
-              "id": "a150b26a-c31d-4435-83fe-a2220cd69681",
-              "userId": "1",
-              "pubDate": "2023-05-20T21:00:22.040Z",
-              "username": "Yen134",
-              "commentText": "Полностью согласен",
-              "replies": [],
-              "parentId": "eea4fd57-34b6-49ec-99ed-85cae752184a"
-            }
+          "id": "fafaf1db-1ce4-427b-8ab9-fac8ad46bc7d",
+          "correctAnswerIds": [
+            "e6e0e009-7cb2-411d-8bb0-e999cd421f8d"
           ],
-          "parentId": ""
+          "idHomework": "c6f8cd8f-d16e-45e3-8833-89598d3ef8f1",
+          "idQuestion": "db10d8c1-a510-4e6c-ace2-c99057003b6f"
         },
         {
-          "id": "f8e0a1a2-5065-4701-baf6-564abe75e65c",
-          "userId": "1",
-          "pubDate": "2023-05-20T19:20:12.044Z",
-          "username": "Yen134",
-          "commentText": "Много нового узнал!",
-          "replies": [
-            {
-              "id": "e7a8c5a2-4c4a-4e4f-873e-cf92872d6ad9",
-              "userId": "1",
-              "pubDate": "2023-05-28T10:30:56.460Z",
-              "username": "Yen134",
-              "commentText": "ffwefwefwef",
-              "replies": [],
-              "parentId": "f8e0a1a2-5065-4701-baf6-564abe75e65c"
-            }
+          "id": "cce73ee3-53a0-472f-9274-179068cadfb2",
+          "correctAnswerIds": [
+            "c50beea1-0213-46be-99a8-17083a5489a3"
           ],
-          "parentId": ""
+          "idHomework": "c6f8cd8f-d16e-45e3-8833-89598d3ef8f1",
+          "idQuestion": "aea51acb-6f07-46e5-9ed0-da93d28fe944"
         },
         {
-          "id": "37632a3c-5edc-45ab-96cb-5dbbdf17a161",
-          "userId": "1",
-          "pubDate": "2023-05-22T18:07:56.013Z",
-          "username": "Yen134",
-          "commentText": "Подчеркнул для себЯ много нового",
-          "replies": [],
-          "parentId": ""
-        },
-        {
-          "id": "5e78c92b-2a5b-45de-8483-cbbaf325dabf",
-          "userId": "1",
-          "pubDate": "2023-05-22T22:07:22.959Z",
-          "username": "Yen134",
-          "commentText": "Круто!",
-          "replies": [],
-          "parentId": ""
-        },
-        {
-          "id": "fc3f2b33-d94b-4e36-a91f-dcfbf1cf8034",
-          "userId": "1",
-          "pubDate": "2023-05-22T22:38:40.638Z",
-          "username": "Yen134",
-          "commentText": "прикольна",
-          "replies": [
-            {
-              "id": "1e335fe1-a2ca-451e-95ee-4cd0978698cc",
-              "userId": "1",
-              "pubDate": "2023-05-22T22:45:59.110Z",
-              "username": "Yen134",
-              "commentText": "сыглы",
-              "replies": [],
-              "parentId": "fc3f2b33-d94b-4e36-a91f-dcfbf1cf8034"
-            }
+          "id": "9f8e1d1f-236a-40a3-8bc2-ee1ee8fe7bde",
+          "correctAnswerIds": [
+            "6101472f-41ca-4355-a920-fa67511e38c1"
           ],
-          "parentId": ""
+          "idHomework": "c6f8cd8f-d16e-45e3-8833-89598d3ef8f1",
+          "idQuestion": "c1597b7a-b6b6-47d3-86cb-dfffc958feb3"
         },
         {
-          "id": "093eaf4b-8f5a-45b2-bd67-a24bd7b353ec",
-          "userId": "1",
-          "pubDate": "2023-05-28T10:31:02.896Z",
-          "username": "Yen134",
-          "commentText": "wefwfwefwefwef",
-          "replies": [],
-          "parentId": ""
+          "id": "377de8ab-8871-46a2-ad91-e3ef8703c62f",
+          "correctAnswerIds": [
+            "1a636449-bd20-48d7-b520-c33bc3df3550"
+          ],
+          "idHomework": "c6f8cd8f-d16e-45e3-8833-89598d3ef8f1",
+          "idQuestion": "be48dc5e-ef37-4c58-bed7-c1c83f353bc9"
+        },
+        {
+          "id": "59eaa6a6-9bf6-43ba-9e9a-53ba4076fc20",
+          "correctAnswerIds": [
+            "5051b4bf-5f6e-4300-9a6b-7a197b898cf6"
+          ],
+          "idHomework": "c6f8cd8f-d16e-45e3-8833-89598d3ef8f1",
+          "idQuestion": "e717340c-242b-4e3a-8ba0-5649637f929d"
         }
       ]
     },
     {
-      "id": "topic2-comments",
-      "comments": [
+      "idHomework": "bc5206f4-a22c-4dd1-b3a0-daf7c7987daf",
+      "answers": [
         {
-          "id": "1e551798-1104-467e-b767-ea981e0658a1",
-          "userId": "1",
-          "pubDate": "2023-06-14T19:49:29.816Z",
-          "username": "Yen134",
-          "commentText": "Готов учиться!",
-          "replies": [],
-          "parentId": ""
+          "id": "252a9f21-ed98-4c8a-ab68-d20181837676",
+          "correctAnswerIds": [
+            "d06f866e-44c1-4eed-bac6-01170259289d"
+          ],
+          "idHomework": "bc5206f4-a22c-4dd1-b3a0-daf7c7987daf",
+          "idQuestion": "aa516f7d-abef-4c39-b4b3-81336746b250",
+          "allAnswers": 3
+        },
+        {
+          "id": "7bc6270e-1899-4416-87e0-ada837a77eed",
+          "correctAnswerIds": [
+            "3641a3e7-d1f8-441c-9cee-1047982ab353"
+          ],
+          "idHomework": "bc5206f4-a22c-4dd1-b3a0-daf7c7987daf",
+          "idQuestion": "11e50ed6-629b-44d8-86da-dec601c7c19d",
+          "allAnswers": 3
+        },
+        {
+          "id": "edae0073-693b-41fa-a5d8-92ea28c6fd6f",
+          "correctAnswerIds": [
+            "945bd37d-6583-4c80-816a-4a76673b6ad7"
+          ],
+          "idHomework": "bc5206f4-a22c-4dd1-b3a0-daf7c7987daf",
+          "idQuestion": "77c7a966-59c9-4c6e-89c9-74bfba529dff",
+          "allAnswers": 3
+        },
+        {
+          "id": "511367f4-c565-499e-9aed-6606da72a05c",
+          "correctAnswerIds": [
+            "fcb91125-2106-40ab-b4c0-d65034f5b77e"
+          ],
+          "idHomework": "bc5206f4-a22c-4dd1-b3a0-daf7c7987daf",
+          "idQuestion": "883d9ecf-7e9f-4538-9cc7-b0ca00b8d1b0",
+          "allAnswers": 3
+        },
+        {
+          "id": "45f68110-d755-4076-9dce-f6ffdee85d86",
+          "correctAnswerIds": [
+            "0f61bbcd-db55-4cd9-b582-7a4fd4e1a87f"
+          ],
+          "idHomework": "bc5206f4-a22c-4dd1-b3a0-daf7c7987daf",
+          "idQuestion": "ab3ad725-c98a-4a03-8d02-99084109bd0d",
+          "allAnswers": 3
         }
       ]
-    },
-    {
-      "id": "topic3-comments",
-      "comments": [
-        {
-          "id": "0cf60958-f2eb-47bc-851b-90a7bce18cec",
-          "userId": "1",
-          "pubDate": "2023-05-22T19:01:16.979Z",
-          "username": "Yen134",
-          "commentText": "Замечательно!",
-          "replies": [],
-          "parentId": ""
-        }
-      ]
-    }
-  ],
-  "commentsRank": [
-    {
-      "id": "eea4fd57-34b6-49ec-99ed-85cae752184a",
-      "dislikes": [],
-      "likes": []
-    },
-    {
-      "id": "f8e0a1a2-5065-4701-baf6-564abe75e65c",
-      "dislikes": [
-        {
-          "id": "1"
-        }
-      ],
-      "likes": []
-    },
-    {
-      "id": "b500a79e-e14d-4a41-876d-d0fe096c1079",
-      "dislikes": [],
-      "likes": [
-        {
-          "id": "1"
-        }
-      ]
-    },
-    {
-      "id": "a150b26a-c31d-4435-83fe-a2220cd69681",
-      "dislikes": [],
-      "likes": [
-        {
-          "id": "1"
-        }
-      ]
-    },
-    {
-      "id": "37632a3c-5edc-45ab-96cb-5dbbdf17a161",
-      "dislikes": [
-        {
-          "id": "1"
-        }
-      ],
-      "likes": []
-    },
-    {
-      "id": "0cf60958-f2eb-47bc-851b-90a7bce18cec",
-      "dislikes": [],
-      "likes": []
-    },
-    {
-      "id": "5e78c92b-2a5b-45de-8483-cbbaf325dabf",
-      "dislikes": [],
-      "likes": [
-        {
-          "id": "1"
-        }
-      ]
-    },
-    {
-      "id": "fc3f2b33-d94b-4e36-a91f-dcfbf1cf8034",
-      "dislikes": [],
-      "likes": []
-    },
-    {
-      "id": "1e335fe1-a2ca-451e-95ee-4cd0978698cc",
-      "dislikes": [],
-      "likes": []
-    },
-    {
-      "id": "e7a8c5a2-4c4a-4e4f-873e-cf92872d6ad9",
-      "dislikes": [],
-      "likes": []
-    },
-    {
-      "id": "093eaf4b-8f5a-45b2-bd67-a24bd7b353ec",
-      "dislikes": [],
-      "likes": []
-    },
-    {
-      "id": "1e551798-1104-467e-b767-ea981e0658a1",
-      "dislikes": [],
-      "likes": []
     }
   ]
 }
